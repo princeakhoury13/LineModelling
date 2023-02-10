@@ -41,9 +41,13 @@ namespace LineModelling
             {
                 Console.WriteLine("The lengths of Line 1 and Line 2 are equal.");
             }
+            else if (length1 > length2)
+            {
+                Console.WriteLine("Line 1 is greater in length than line 2");
+            }
             else
             {
-                Console.WriteLine("The lengths of Line 1 and Line 2 are not equal.");
+                Console.WriteLine("Line 2 is greater in length than line 1");
             }
         }
     }
